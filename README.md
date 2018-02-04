@@ -1,6 +1,6 @@
 # A-Sparse-Coding-Based-Approach-for-Class-Specific-Feature-Selection
 
-Source codes will be available very soon!
+Source code will be available very soon!
 
 
 # Contacts
