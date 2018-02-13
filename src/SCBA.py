@@ -4,7 +4,6 @@ from sklearn.decomposition import PCA
 
 import numpy as np
 import numpy.matlib
-from matplotlib import pyplot as plt
 np.set_printoptions(threshold=np.inf)
 import pycuda.autoinit
 import pycuda.gpuarray as gpuarray
@@ -513,7 +512,3 @@ class SCBA():
 
 
         return self.nrmInd, self.sInd, self.repInd, self.C
-
-    def plot_sparsness(self):
-        plt.spy(self.C, markersize=1, precision=0.01)
-        plt.show()
