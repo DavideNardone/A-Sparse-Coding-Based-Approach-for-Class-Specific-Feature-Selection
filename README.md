@@ -30,6 +30,12 @@ The software is written in Python. In order to correctly work, the software requ
 
 In order to use this algorithm, go into the project folder: `/src` and run the file `CSFS_SCBA.py`.
 
+# Results
+
+![alt text](img/GS-CSFS_vs_OM-CSFS.png "")
+![alt text](img/TFS_vs_OM.png "")
+
+
 # Authors
 
   Davide Nardone, University of Naples Parthenope, Science and Techonlogies Departement, Msc Applied Computer Science
