@@ -10,7 +10,7 @@ Sparse-Coding Based Approach for Class-Specific Feature Selection (SCBA-CSFS) is
 
 # Prerequisites and requirements
 
-## Prerequisites
+## Pre-requisites
 1. Python 2.7 or greater <br>
 2. A CUDA version 5.0 or greater (facoltative). For installing, please refer to the [official CUDA documention](http://docs.nvidia.com/cuda/#axzz4al7PKeAs).
 
