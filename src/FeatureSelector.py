@@ -2,7 +2,7 @@ import numpy as np
 np.set_printoptions(threshold=np.inf)
 import sys
 sys.path.insert(0, './src')
-import SCBA as fs
+import SMBA as fs
 
 
 

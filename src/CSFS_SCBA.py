@@ -231,7 +231,7 @@ def main():
 
     params = {
 
-        'SCBA':
+        'SMBA':
          # the smaller is alpha the sparser is the C matrix (fewer representatives)
             {
                 'alpha': alpha,
@@ -250,8 +250,8 @@ def main():
         # it's possible to add other FS methods by modifying the correct file
     }
 
-    fs_model = fs.FeatureSelector(name='SCBA', tp='SLB', params=params['SCBA'])
-    fs_name = 'SCBA'
+    fs_model = fs.FeatureSelector(name='SMBA', tp='SLB', params=params['SMBA'])
+    fs_name = 'SMBA'
 
     # CLASSIFIERS (it's possible to add other classifier methods by adding entries into this list)
     clf_name = [

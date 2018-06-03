@@ -12,7 +12,7 @@ import skcuda.misc as misc
 import time
 
 
-class SCBA():
+class SMBA():
 
     def __init__(self, data, alpha=10, norm_type=1,
                 verbose=False, step=5, thr=[10**-8,-1], max_iter=5000,
