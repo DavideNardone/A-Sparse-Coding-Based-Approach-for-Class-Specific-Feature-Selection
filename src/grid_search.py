@@ -364,8 +364,8 @@ if tuning_type == 'TFS':
     for fs_name, fs_model in slb_fs.iteritems():
 
         # check whether the 'curr_res_fs_fold' directory exists, otherwise create it
-        curr_res_output_fold = path_data_folder + '/' + res_path_output + '/TUNING/' + resample + '/'+ fs_name
-        checkFolder(path_data_folder, res_path_output + '/TUNING/' + resample + '/'+ fs_name)
+        # curr_res_output_fold = path_data_folder + '/' + res_path_output + '/TUNING/' + resample + '/'+ fs_name
+        # checkFolder(path_data_folder, res_path_output + '/TUNING/' + resample + '/'+ fs_name)
 
         print '\nTuning hyper-parameters on ' +fs_name.__str__()+ ' for accuracy by means of k-fold CV...'
         FS.update({fs_name: {}})
@@ -434,11 +434,11 @@ if tuning_type == 'TFS':
     best_params = tuning_analysis(FS,num_feat)
 
     print 'Saving results...\n'
-    curr_res_output_fold = path_data_folder + '/' + res_path_output + '/TUNING/' + resample
-    checkFolder(path_data_folder, res_path_output + '/TUNING/' + resample)
-
-    with open(curr_res_output_fold + '/' + 'best_params.pickle', 'wb') as handle:
-        pickle.dump(results, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    # curr_res_output_fold = path_data_folder + '/' + res_path_output + '/TUNING/' + resample
+    # checkFolder(path_data_folder, res_path_output + '/TUNING/' + resample)
+    #
+    # with open(curr_res_output_fold + '/' + 'best_params.pickle', 'wb') as handle:
+    #     pickle.dump(results, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 elif tuning_type == 'CSFS':
 
