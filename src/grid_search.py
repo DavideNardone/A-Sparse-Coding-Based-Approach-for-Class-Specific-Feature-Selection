@@ -259,7 +259,7 @@ if __name__ == '__main__':
     # initializing feature selector parameters
     params = {
         # the smaller alpha the sparser C matrix (fewer representatives)
-        'SMRS':
+        'SMBA':
             {
                 'alpha':        5, #typically alpha in [2,50]
                 'norm_type':    1,
@@ -316,7 +316,7 @@ if __name__ == '__main__':
 
         'LASSO': fs.FeatureSelector(name='LASSO', tp='SLB', params=params['LASSO']),
         'EN': fs.FeatureSelector(name='EN', tp='SLB', params=params['EN']),
-        'SMBA':     fs.FeatureSelector(name='SMRS', tp='SLB', params=params['SMRS']),
+        'SMBA':     fs.FeatureSelector(name='SMBA', tp='SLB', params=params['SMBA']),
         'RFS':    fs.FeatureSelector(name='RFS', tp='SLB',params=params['RFS']),
         'll_l21': fs.FeatureSelector(name='ll_l21', tp='SLB',params=params['ll_l21']), #injection not working
         'ls_l21': fs.FeatureSelector(name='ls_l21', tp='SLB',params=params['ls_l21']),
