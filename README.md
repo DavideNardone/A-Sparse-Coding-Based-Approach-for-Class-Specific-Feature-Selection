@@ -17,12 +17,12 @@ Sparse-Coding Based Approach for Class-Specific Feature Selection (SMBA-CSFS) is
 # Requirements
 The software is written in Python. In order to correctly work, the software requires the following packages:
 
-- NumPy
-- SciPy
-- Sklearn
+- numPy
+- sciPy
+- sklearn
 - hdf5storage
-- Optionally: pycuda
-- Optionally: skcuda
+- optiona: pycuda
+- optional: skcuda
 
 **NB**: The SMBA class can eventually run faster by exploiting the CUDA environment. In case you cannot install (for some reason) the latter dependencies, you must manually remove the code which depends on these packages.
 
