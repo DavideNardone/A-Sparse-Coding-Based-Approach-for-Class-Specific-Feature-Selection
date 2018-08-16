@@ -314,30 +314,29 @@ if __name__ == '__main__':
 
     slb_fs = {
 
-        # 'LASSO': fs.FeatureSelector(name='LASSO', tp='SLB', params=params['LASSO']),
-        # 'EN': fs.FeatureSelector(name='EN', tp='SLB', params=params['EN']),
+        'LASSO': fs.FeatureSelector(name='LASSO', tp='SLB', params=params['LASSO']),
+        'EN': fs.FeatureSelector(name='EN', tp='SLB', params=params['EN']),
         'SMBA':     fs.FeatureSelector(name='SMRS', tp='SLB', params=params['SMRS']),
-        # 'RFS':    fs.FeatureSelector(name='RFS', tp='SLB',params=params['RFS']),
-        # 'll_l21': fs.FeatureSelector(name='ll_l21', tp='SLB',params=params['ll_l21']), #injection not working
-        # 'ls_l21': fs.FeatureSelector(name='ls_l21', tp='SLB',params=params['ls_l21']),
-        #
-        # 'Relief': fs.FeatureSelector(name='Relief', tp='filter', params=params['Relief']),
-        # 'MRMR':     fs.FeatureSelector(name='MRMR', tp='ITB', params=params['MRMR']),
-        # 'MI': fs.FeatureSelector(name='MI', tp='filter', params=params['MI'])
+        'RFS':    fs.FeatureSelector(name='RFS', tp='SLB',params=params['RFS']),
+        'll_l21': fs.FeatureSelector(name='ll_l21', tp='SLB',params=params['ll_l21']), #injection not working
+        'ls_l21': fs.FeatureSelector(name='ls_l21', tp='SLB',params=params['ls_l21']),
+
+        'Relief': fs.FeatureSelector(name='Relief', tp='filter', params=params['Relief']),
+        'MRMR':     fs.FeatureSelector(name='MRMR', tp='ITB', params=params['MRMR']),
+        'MI': fs.FeatureSelector(name='MI', tp='filter', params=params['MI'])
     }
 
     tuned_parameters = {
 
-        # 'LASSO':    {'alpha': [1e-15, 1e-10, 1e-8, 1e-5,1e-4, 1e-3,1e-2, 1, 5, 10]},
-        # 'LASSO': {'alpha': [1, 5]},
-        # 'EN':       {'alpha': [1e-15, 1e-10, 1e-8, 1e-5,1e-4, 1e-3,1e-2, 1, 5, 10]},
+        'LASSO':    {'alpha': [1e-15, 1e-10, 1e-8, 1e-5,1e-4, 1e-3,1e-2, 1, 5, 10]},
+        'EN':       {'alpha': [1e-15, 1e-10, 1e-8, 1e-5,1e-4, 1e-3,1e-2, 1, 5, 10]},
         'SMBA':     {'alpha': [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]},
-        # 'RFS':      {'gamma': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]},
-        # 'll_l21':   {'z': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]},
-        # 'ls_l21':   {'z': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]},
-        # 'Relief':   {'k': [1,2,3,4,5,6,7,8,9,10]},
-        # 'MRMR':     {'num_feats': [max_num_feat]},
-        # 'MI':       {'n_neighbors': [1, 2]}
+        'RFS':      {'gamma': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]},
+        'll_l21':   {'z': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]},
+        'ls_l21':   {'z': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]},
+        'Relief':   {'k': [1,2,3,4,5,6,7,8,9,10]},
+        'MRMR':     {'num_feats': [max_num_feat]},
+        'MI':       {'n_neighbors': [1, 2, 3, 5, 7, 10]}
     }
 
 
