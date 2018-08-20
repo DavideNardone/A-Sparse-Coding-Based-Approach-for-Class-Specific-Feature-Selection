@@ -173,7 +173,7 @@ def checkFolder(root, path_output):
 if __name__ == '__main__':
 
     ''' LOADING ANY DATASET '''
-    dataset_dir = '/home/nardone/dataset'
+    dataset_dir = '/dataset'
     dataset_type = '/BIOLOGICAL'
     dataset_name = '/LUNG_DISCRETE'
 
