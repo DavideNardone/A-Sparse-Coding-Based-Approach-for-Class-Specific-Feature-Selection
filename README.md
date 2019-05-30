@@ -47,5 +47,5 @@ For any kind of problem, questions, ideas or suggestions, please don't esitate t
   
 # Papers that cite CSFS-SMBA
 
-The following software is related to a scientific manuscript submitted to the BMC journal for the [BBCC Conference](http://www.bbcc-meetings.it/program/), so i wouldn't recommend you to use it for any plagiarism.
+The following software is related to a scientific manuscript submitted to an official journal, so i wouldn't recommend you to use it for any plagiarism.
   
