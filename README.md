@@ -33,7 +33,14 @@ In order to use this algorithm, go into the project folder: `/src` and run the f
 # Results
 
 ![alt text](img/TFS_vs_OM.png "")
+`Comparison of several TFS accuracies against SMBA and SMBA-CSFS on nine data sets:
+(a)  ALLAML(2), (b) LEUKEMIA(2), (c) CLL_SUB_111(3), (d) GLIOMA(4), (e) LUNG_C(5), (f) LUNG_D(7), (g) DLBCL(9), (h) CARCINOM(11), (i) GCM(14), when a varying number of features is selected. SVM classifier with 5-fold CV was used.`
+
+<hr>
+
 ![alt text](img/GS-CSFS_vs_OM-CSFS.png "")
+`Comparison of several CSFS accuracies against SMBA-CSFS on nine data sets:
+(a)  ALLAML(2), (b) LEUKEMIA(2), (c) CLL_SUB_111(3), (d) GLIOMA(4), (e) LUNG_C(5), (f) LUNG_D(7), (g) DLBCL(9), (h) CARCINOM(11), (i) GCM(14), when a varying number of features is selected. SVM classifier with 5-fold CV was used.`
 
 # Authors
 
