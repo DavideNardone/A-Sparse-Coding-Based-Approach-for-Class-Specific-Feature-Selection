@@ -54,5 +54,14 @@ For any kind of problem, questions, ideas or suggestions, please don't esitate t
   
 # Papers that cite CSFS-SMBA
 
-The following software is related to a scientific manuscript submitted to an official journal, so i wouldn't recommend you to use it for any plagiarism.
+If you use the software in a scientific publication, please consider citing the repository with the following DOI:
+
+```
+@article{nardone2019sparse,
+  title={A Sparse-Modeling based approach for Class-Specific feature selection},
+  author={Nardone, Davide and Ciaramella, Angelo and Staiano, Antonino},
+  year={2019},
+  institution={PeerJ Computer Science}
+}
+```
   
