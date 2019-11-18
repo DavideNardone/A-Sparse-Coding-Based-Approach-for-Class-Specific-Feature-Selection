@@ -50,7 +50,7 @@ In order to use this algorithm, go into the project folder: `/src` and run the f
 # Contacts
 
 For any kind of problem, questions, ideas or suggestions, please don't esitate to contact me at: 
-- **davide.nardone@studenti.uniparthenope.it**
+- **davide.nardone@live.it**
   
 # Papers that cite CSFS-SMBA
 
