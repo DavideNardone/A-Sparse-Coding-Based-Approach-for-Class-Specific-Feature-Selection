@@ -57,10 +57,14 @@ For any kind of problem, questions, ideas or suggestions, please don't esitate t
 If you use the software in a scientific publication, please consider citing the following scientific manuscript:
 
 ```
-@article{nardone2019sparse,
-  title={A Sparse-Modeling based approach for Class-Specific feature selection},
-  author={Nardone, Davide and Ciaramella, Angelo and Staiano, Antonino},
-  year={2019},
-  institution={PeerJ Computer Science}
+@article{nardone2019,
+author = {Nardone, Davide and Ciaramella, Angelo and Staiano, Antonino},
+year = {2019},
+month = {11},
+pages = {25},
+title = {A Sparse-Modeling Based Approach for Class Specific Feature Selection},
+volume = {5},
+journal = {PeerJ Computer Science},
+doi = {10.7717/peerj-cs.237}
 }
 ```
