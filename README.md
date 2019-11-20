@@ -54,7 +54,7 @@ For any kind of problem, questions, ideas or suggestions, please don't esitate t
   
 # Papers that cite CSFS-SMBA
 
-If you use the software in a scientific publication, please consider citing the repository with the following DOI:
+If you use the software in a scientific publication, please consider citing the following scientific manuscript:
 
 ```
 @article{nardone2019sparse,
