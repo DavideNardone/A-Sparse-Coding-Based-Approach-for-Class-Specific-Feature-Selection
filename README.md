@@ -21,7 +21,7 @@ The software is written in Python. In order to correctly work, the software requ
 - sciPy
 - sklearn
 - hdf5storage
-- optiona: pycuda
+- optional: pycuda
 - optional: skcuda
 
 **NB**: The SMBA class can eventually run faster by exploiting the CUDA environment. In case you cannot install (for some reason) the latter dependencies, you must manually remove the code which depends on these packages.
